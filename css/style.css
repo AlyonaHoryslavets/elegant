@@ -20,19 +20,20 @@ header{
     margin: auto;
     max-width: 1195px;
 }
-header .container{
-    margin-bottom: 262px;
+.first_page .container{
+    margin-top:18%;
 }
 .first_page h1{
     text-align: center;
     font-size:80px;
     color: white;
-    font-weight: lighter;
-    }
+    font-weight: 300;
+}
 .first_page h1 span{
-    font:80px italic;
+    font-size:80px;
+    font-style: italic;
     color: white;
-    font-weight: lighter;
+    font-weight: 300;
 }
 .first_page .container{
     margin-bottom: 414px;
