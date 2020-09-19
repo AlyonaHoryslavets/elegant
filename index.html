@@ -6,35 +6,152 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="media-queries.css">
 </head>
 <body>
 <header>
-<div class="container">
-    <a href="#" class="logo">
-        <img src="images/logo.png" alt="logo">
-    </a>
-</div>
+    <div class="flex-container">
+        <div class="logo">
+            <a href="#" class="logo__img">
+                <img src="images/logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="menu">
+            <a href="#" class="menu__link">Menu</a>
+        </div>
+        <div class="menu-burger"></div>
+    </div>
 </header>
-<section class="first_page">
-    <div class="container">
+<section class="wrapper">
+    <div class="wrapper__slogan">
         <h1>Say <span>Haloa</span> to your Portfolio</h1>
     </div>
-</section>
-<section class="block_main">
     <div class="container">
-        <a href="#">
-            <h3>Who we Are</h3>
-        </a>
-         <h2>Tell The World About Yourself</h2>
-        <p>
-            Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.
-        </p>
-        <a href="#" class="button">Read More About Us</a>
+        <h4 class="container__subtitle">Who we Are</h4>
+        <h3 class="container__title">Tell The World About Yourself</h3>
+        <p class="container__text">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
+            claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+            etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera
+            gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta
+            decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.</p>
+        <a href="#" class="container__link">Read More About Us</a>
     </div>
-
+    <div class="container">
+        <h4 class="container__subtitle">What We Do</h4>
+        <h3 class="container__title">Show Your Amazing Work</h3>
+    </div>
+    <div class="flex">
+        <div class="flex__box">
+            <img src="images/1img.jpg" alt="image" class="img">
+        </div>
+        <div class="flex__box">
+            <img src="images/2img.jpg" alt="image" class="img">
+        </div>
+        <div class="flex__box">
+            <img src="images/3img.jpg" alt="image" class="img">
+        </div>
+        <div class="flex__box">
+            <img src="images/4img.jpg" alt="image" class="img">
+        </div>
+        <div class="flex__box">
+            <img src="images/5img.jpg" alt="image" class="img">
+        </div>
+        <div class="flex__box">
+            <img src="images/6img.jpg" alt="image" class="img">
+        </div>
+        <div class="flex__box">
+            <img src="images/7img.jpg" alt="image" class="img">
+        </div>
+        <div class="flex__box">
+            <img src="images/8img.jpg" alt="image" class="img">
+        </div>
+    </div>
+    <div class="container">
+        <h4 class="container__subtitle">Who we Are</h4>
+        <h3 class="container__title">The Amazing People Behind This</h3>
+        <p class="container__text">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
+            claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
+            etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+        <div class="flex">
+            <div class="flexbox">
+                <img src="images/ceo.jpg" alt="" class="photo">
+                <h4 class="career">ceo</h4>
+                <h3 class="name">Tobias Schneider</h3>
+                <p class="text">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore.</p>
+            </div>
+            <div class="flexbox">
+                <img src="images/designer.jpg" alt="" class="photo">
+                <h4 class="career">Designer</h4>
+                <h3 class="name">Jack Knife</h3>
+                <p class="text">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore.</p>
+            </div>
+            <div class="flexbox">
+                <img src="images/developer.jpg" alt="" class="photo">
+                <h4 class="career">Developer</h4>
+                <h3 class="name">Ricki Hall</h3>
+                <p class="text">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h4 class="container__subtitle">Last Post</h4>
+        <h3 class="container__title">We Like to Write</h3>
+        <div class="flexblock">
+            <div class="flexblock__start">
+                <img src="images/lastimg.jpg" alt="image" class="img">
+            </div>
+            <div class="flexblock__end">
+                <time>14 September 2014</time>
+                <h3>Change Your Space</h3>
+                <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+                    Investigationes demonstraverunt lectores.</p>
+                <a href="#">Read</a>
+            </div>
+        </div>
+        <a href="#" class="container__link">More From Our Blog</a>
+    </div>
+    <div class="container">
+        <h4 class="container__subtitle">Contact Us</h4>
+        <h3 class="container__title">Work With Us</h3>
+        <img src="images/map.jpg" alt="image" class="img">
+        <div class="contact">
+            <div class="contact__item">
+                <h4>Location</h4>
+                <p>198 West 21th Street, New
+                    York, NY 10010</p>
+            </div>
+            <div class="contact__item">
+                <h4>Phone</h4>
+                <p>+88 (0) 101 0000000
+                    +88 (0) 101 0000000</p>
+            </div>
+            <div class="contact__item">
+                <h4>Fax</h4>
+                <p>+88 (0) 202 0000 000
+                    +88 (0) 202 0000 000</p>
+            </div>
+            <div class="contact__item">
+                <h4>Email</h4>
+                <p>elegant@elegant.com
+                    commercial@elegant.com</p>
+            </div>
+        </div>
+    </div>
 </section>
+<footer>
+<div class="wrap">
+    <div class="wrap__flexbox">
+        <p>© 2014 Designed and Developed by Diogo Dantas</p>
+        <p>Email: <a href="#">imdiogodantas@gmail.com</a></p>
+    </div>
+</div>
 
+</footer>
 </body>
 </html>
