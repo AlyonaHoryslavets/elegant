@@ -1,21 +1,206 @@
 @media only screen and (max-width: 1024px) {
-
+    header {
+        background-color: rgba(101,109, 113, 0.6);
+    }
+    h1,h1 span{
+        font-size:70px;
+    }
+    .wrapper__slogan {
+        padding-top: 20%;
+        padding-bottom: 28%;
+    }
+    .servblock__img, .servblock__info{
+        margin: auto;
+    }
+    .post-list{
+        padding-top: 15px;
+    }
+    .flex--contacts{
+        padding: 15px;
+    }
+    .fc__adress,.fc__view,.fc__text,.fc__phone{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 992px) {
 
 }
 @media only screen and (max-width: 767px) {
+    .homepage.bg{
+        background-image: url("../images/mobile_bg_homepage.jpg");
+    }
+    .bg.blog{
+        background-image: none;
+    }
+    .contacts.bg{
+        background-image: none;
+    }
+    .work.bg{
+        height: 100vh;
+    }
+    header{
+        background-color: rgba(101 109 113 0.3);
+    }
+    .wrapper__slogan {
+        padding-top: 70%;
+        padding-bottom: 100%;
+    }
+    h1, h1 span{
+        line-height: 95px;
+    }
+    .desc.container,.blog.container, .info.container, .flex{
+        margin-bottom: 100px;
+    }
+    .container__subtitle{
+        margin-bottom: 15px;
+    }
+    .container__title{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .container__text{
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .desc.container__text{
+        margin-bottom: 30px;
+    }
+    .flex__box{
+        width: 100%;
+    }
+    .flexbox{
+        width: 100%;
+    }
+    .worker_desc{
+        padding-bottom: 28px;
+    }
+    .career{
+        margin-bottom: 14px;
+    }
+    .name{
+        margin-bottom: 20px;
+    }
+    .fb-img{
+        width: 100%;
+    }
+    .fb-content{
+        margin: auto;
+        margin-top:45% ;
+        text-align: center;
+    }
+    .servblock__img{
+        height: auto;
+    }
+    .servblock__info{
+        padding-top: 28px;
+    }
+    .project.main__block{
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .socmedia{
+        display: none;
+    }
+    .postlist,.post-list{
+        margin: auto;
+    }
 
+    .main__block, .flex--contacts{
+        margin-bottom: 15px;
+    }
+    .project.wrapper{
+        padding: 15px;
+        margin-bottom: 0;
+        padding-top: 61%;
+    }
+    .blog.wrapper, .contacts.wrapper{
+        margin-top: 20%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .contacts.container__title{
+        margin-bottom: 50px;
+    }
 }
 @media only screen and (max-width: 420px) {
-
+    .wrapper__slogan{
+        padding-top: 50%;
+        padding-bottom: 100%;
+    }
+    h1, h1 span{
+        font-size: 60px;
+        line-height: 95px;
+    }
+    .desc.container,.blog.container, .info.container, .flex{
+        margin-bottom: 80px;
+    }
+    .fb-content{
+        margin-top: 0;
+        padding: 30px 3px 30px;
+    }
+    .wrap__flexbox p, a{
+        margin-bottom: 10px;
+    }
+    .desc.serv{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .services, .serv.desc p{
+         font-size: 15px;
+    }
+    .servblock__info{
+        padding: 0;
+        padding-top: 28px;
+        padding-bottom: 10px;
+    }
+    .mn.title{
+        margin-bottom: 70px;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .mn.text{
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 60px;
+    }
+    .fc__text{
+        height: auto;
+    }
 }
 @media only screen and (max-width: 375px) {
-
+    .wrapper__slogan{
+        padding-top: 60%;
+        padding-bottom: 100%;
+    }
+    h1, h1 span{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .fb-img{
+        height: auto;
+    }
+    .flexblock{
+        margin-bottom: 50px;
+    }
 }
 @media only screen and (max-width: 360px) {
 
 }
 @media only screen and (max-width: 320px) {
-
+    h1, h1 span {
+        font-size: 40px;
+    }
+    .wrapper__slogan{
+        padding-top: 60%;
+        padding-bottom: 100%;
+    }
+    .info.container{
+        margin-bottom: 50px;
+    }
+    .serv{
+        padding: 10px 5px;
+    }
 }

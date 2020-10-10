@@ -7,10 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ELEGANT</title>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="http://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body class="bg homepage">
+<i class="fas fa-times-circle"></i>
+<div id="dialog" title="FORGOT YOUR PASSWORD?">
+    <div class="content">
+        <form action="#" method="post" class="login">
+            <label>ENTER YOU <br>EMAIL</label>
+            <input type="email">
+            <button type="reset" class="reset">RESET PASSWORD</button>
+        </form>
+        <h3>OR</h3>
+        <a href="#" class="fb-login">
+        <i class="fab fa-facebook-f"></i>
+        Log In Using Facebook</a>
+    </div>
+</div>
 <header>
     <div class="flex-container">
         <div class="logo">
@@ -30,13 +46,13 @@
     </div>
     <div class="container desc">
         <h4 class="container__subtitle">Who we Are</h4>
-        <h3 class="container__title">Tell The World About Yourself</h3>
+        <a href="about.html"><h3 class="container__title">Tell The World About Yourself</h3></a>
         <p class="container__text desc">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum
             claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
             etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera
             gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta
             decima et quinta decima. Eodem modo typi, qui nunc, fiant sollemnes in futurum.</p>
-        <a href="about.html" class="container__link">Read More About Us</a>
+        <a id="opener" class="container__link">Read More About Us</a>
     </div>
     <div class="container">
         <a href="work.html"><h4 class="container__subtitle">What We Do</h4></a>
@@ -157,7 +173,10 @@
             <p>Email: <a href="#">imdiogodantas@gmail.com</a></p>
         </div>
     </div>
-
 </footer>
+<script src="https://kit.fontawesome.com/19467e5a6a.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
