@@ -47,10 +47,12 @@
 .ui-corner-all{
     border-radius: 0;
 }
-.ui-dialog-titlebar{
-    background-color: black;
+.ui-dialog .ui-dialog-titlebar{
     text-align: center;
     padding: 41px;
+}
+.ui-dialog-titlebar{
+    background-color: black;
 }
 .ui-dialog-title{
     color: #FFFFFF;
