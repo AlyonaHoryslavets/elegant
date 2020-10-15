@@ -29,59 +29,71 @@
     font-style: normal;
     font-display: swap;
 }
-.ui-dialog{
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable{
     width: 100%!important;
     max-width: 750px;
     height: 602px;
-    padding: 0;
     background-color: #f9f9f9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ui-dialog{
+    padding: 0;
+}
+.ui-widget.ui-widget-content,.ui-widget-header{
+    border: none;
+    margin-bottom: 40px;
+}
+.ui-widget-content{
+    background-color: black;
 }
 .ui-corner-all{
-    border-radius:0;
-}
-.ui-widget.ui-widget-content{
-    border: none;
-}
-.ui-widget-header{
-    background: black;
-    color: white;
-    font: bold 24px/24px 'Now';
-    text-align: center;
+    border-radius: 0;
 }
 .ui-dialog .ui-dialog-titlebar{
+    background-color: black;
+    text-align: center;
     padding: 41px;
 }
-.ui-dialog .ui-dialog-content{
-    padding: 40px;
+.ui-dialog-title{
+    color: #FFFFFF;
+    font: bold 24px/24px 'Now';
 }
-.content{
-    max-width:575px;
+.ui-button{
+    display: none;
+}
+.ui-dialog .ui-dialog-content{
+    max-width: 575px;
     margin: auto;
-    margin-bottom: 126px;
+    margin-bottom: 166px;
+    padding: 0;
 }
 .login{
     margin-bottom: 30px;
 }
+.form_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .login label{
     display: inline-block;
     font: 500 22px/30px 'Now';
-    position: relative;
     text-align: center;
 }
 .login input{
-    width: 382px;
+    max-width: 380px;
+    width: 100%;
     height: 58px;
     border: solid 1px #b7b7b7;
     border-radius: 2px;
-    position: relative;
-    bottom: 20px;
-    left: 55px;
     margin-bottom: 40px;
 }
 .login button{
     display: block;
-    width: 528px;
     margin: auto;
+    max-width: 528px;
+    width: 100%;
     font: bold 24px/24px 'Now';
     padding: 18px;
     background-color: #c9c9c9;
@@ -95,8 +107,9 @@
 }
 .fb-login{
     display: block;
-    width: 528px;
     margin: auto;
+    max-width: 528px;
+    width: 100%;
     padding: 18px;
     background-color: #557bcc;
     border: none;
@@ -105,7 +118,6 @@
     border-radius: 2px;
     text-align: center;
 }
-
 .bg{
     background-color: white;
     height: 100vh;
@@ -139,6 +151,8 @@ header{
     width: 100%;
     padding: 15px;
     top: 15px;
+    z-index: 2;
+    background-color: rgba(101,109, 113, 0.6);
 }
 .flex-container{
     display: flex;
@@ -157,7 +171,7 @@ header{
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 }
-.menu-burger{
+/*.menu-burger{
     position:relative;
     width: 18px;
     height: 2px;
@@ -183,7 +197,7 @@ header{
     height: 2px;
     background-color:white;
     transform:translateY(5px);
-}
+}*/
 .wrapper{
     margin: auto;
     max-width:1150px;
@@ -521,7 +535,7 @@ footer{
     align-items: stretch;
 }
 .post{
-    max-width: 668px;
+    max-width: 666px;
 }
 .post__block{
     padding: 32px;
@@ -573,6 +587,9 @@ footer{
     flex-wrap: wrap;
     max-width: 290px;
     margin-left: 55px;
+}
+.pl__item{
+    width: 100%;
 }
 .postlist img{
     width: 100%;
@@ -676,7 +693,7 @@ footer{
     margin-bottom: 104px;
     background-color: #f9f9f9;
 }
-.mn.post{
+.left.mn{
     max-width: 666px;
 }
 .mn.title{
@@ -693,12 +710,40 @@ footer{
 .project.main__block span{
     font: 700 20px/32px 'Cardo', serif;
 }
+.owl-carousel.owl-loaded{
+    overflow-anchor: none;
+    display: inline-grid;
+}
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 25px;
+    text-align:center;
+    border: none;
+}
+.owl-carousel button.owl-dot span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #869791;
+}
+.owl-carousel button.owl-dot.active span{
+    position:relative;
+    bottom: -2px;
+    width: 24px;
+    height: 24px;
+    background-color: #f9f9f9;
+    border: solid 1px #d3b000;
+}
 .socmedia{
     max-width: 1022px;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 .socmedia__link{
     border: solid 1px #a1a1a1;

@@ -1,7 +1,4 @@
 @media only screen and (max-width: 1024px) {
-    header {
-        background-color: rgba(101,109, 113, 0.6);
-    }
     h1,h1 span{
         font-size:70px;
     }
@@ -23,8 +20,38 @@
         margin-right: 0;
         width: 100%;
     }
+    .mn.left{
+        max-width: 1024px;
+    }
+    .mn.text{
+        font: 400 30px/45px 'Cardo', serif;
+    }
+    .postlist{
+        max-width: 1024px;
+        margin-left: 0;
+    }
+    .pl__item{
+        width: 49%;
+        margin-right: 5px;
+    }
 }
 @media only screen and (max-width: 992px) {
+    .contact__item{
+        width: 50%;
+    }
+    .fb-img{
+        width: 50%;
+    }
+    .fb-content{
+        width: 50%;
+    }
+    .flexbox{
+        width: 30%;
+        margin: auto;
+    }
+    .flex__box{
+        width: 50%;
+    }
 
 }
 @media only screen and (max-width: 767px) {
@@ -90,6 +117,7 @@
         margin: auto;
         margin-top:45% ;
         text-align: center;
+        width: 100%;
     }
     .servblock__img{
         height: auto;
@@ -106,8 +134,14 @@
     }
     .postlist,.post-list{
         margin: auto;
+        max-width: 767px;
     }
-
+    .mn.left{
+        max-width: 666px;
+    }
+    .pl__item{
+        width: 100%;
+    }
     .main__block, .flex--contacts{
         margin-bottom: 15px;
     }
@@ -123,6 +157,12 @@
     }
     .contacts.container__title{
         margin-bottom: 50px;
+    }
+    .contact__item{
+        width: 100%;
+    }
+    .mn.text{
+        font: 400 20px/32px 'Cardo', serif;
     }
 }
 @media only screen and (max-width: 420px) {
@@ -169,6 +209,32 @@
     .fc__text{
         height: auto;
     }
+    .ui-widget.ui-widget-content .ui-widget-header{
+        margin-bottom: 20px;
+    }
+    .ui-dialog{
+        padding: 5px;
+    }
+    .ui-dialog .ui-dialog-titlebar{
+        padding: 20px;
+    }
+    .ui-dialog-title{
+        font:bold 16px/20px 'Now';
+    }
+    .ui-dialog .ui-dialog-content{
+        margin-bottom: 75px;
+    }
+    .login{
+        margin-bottom: 15px;
+    }
+    .login label, input{
+        margin: auto;
+    }
+    .login label,.login button,.fb-login, .content h3{
+        font-size:16px;
+        line-height: 16px;
+    }
+
 }
 @media only screen and (max-width: 375px) {
     .wrapper__slogan{
@@ -185,8 +251,11 @@
     .flexblock{
         margin-bottom: 50px;
     }
+
+
 }
 @media only screen and (max-width: 360px) {
+
 
 }
 @media only screen and (max-width: 320px) {

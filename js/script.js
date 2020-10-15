@@ -7,7 +7,7 @@ $( function() {
         },
         hide: {
             effect: "explode",
-            duration: 1000
+            duration: 500
         }
     });
 
@@ -15,9 +15,15 @@ $( function() {
         $( "#dialog" ).dialog( "open" );
     });
 } );
-$(document).ready(function(){
-
-    $('.owl-carousel').owlCarousel({
+$(document).mouseup(function (e){
+    var modalctr = $("body");
+    var modal = $(".ui-dialog");
+    if (!modal.is(e.target) && modal.has(e.target).length === 0){
+        modal.hide();
+    }
+});
+$( function(){
+    $(".owl-carousel").owlCarousel({
         loop:true,
         margin:0,
         nav:true,
@@ -29,8 +35,13 @@ $(document).ready(function(){
             },
 
             1000:{
-                items:2
+                items:1
             }
         }
     });
 });
+
+
+
+
+
