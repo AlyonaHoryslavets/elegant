@@ -44,9 +44,6 @@
     border: none;
     margin-bottom: 40px;
 }
-.ui-widget-content{
-    background-color: black;
-}
 .ui-corner-all{
     border-radius: 0;
 }
