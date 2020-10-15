@@ -47,7 +47,7 @@
 .ui-corner-all{
     border-radius: 0;
 }
-.ui-dialog .ui-dialog-titlebar{
+.ui-dialog-titlebar{
     background-color: black;
     text-align: center;
     padding: 41px;
